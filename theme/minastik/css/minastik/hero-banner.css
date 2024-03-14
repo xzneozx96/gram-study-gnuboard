@@ -1,0 +1,156 @@
+.home_banner {
+  background-color: #f0f8ff;
+  position: relative;
+  height: 100vh;
+  margin-top: -110px;
+}
+
+.home_banner .banner_top,
+.home_banner > .banner_top > .container,
+.home_banner > .banner_top > .container > .row {
+  height: 100%;
+}
+
+/* the right below styles are for style 2 only */
+/* .home_banner .banner_top {
+  padding-top: 100px;
+  height: 100%;
+} */
+
+.banner_top {
+  position: relative;
+}
+
+.home_banner .hero_decor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.banner_top--left h2 {
+  /* font size 54px is for style 2 only */
+  /* font-size: 54px; */
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+
+  /* order really matters to create gradient text */
+  background: -webkit-linear-gradient(45deg, var(--heading), rgb(90, 182, 221));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner_top--left p {
+  margin-bottom: 3rem;
+}
+
+.banner_hero--wrap {
+  /* padding-top: 120px; */
+  position: relative;
+  animation: bouncing 3s linear infinite;
+}
+
+.banner_hero--wrap img {
+  /* max height is used for style 2 only */
+  /* max-height: 550px; */
+  max-width: 900px;
+}
+
+.banner_hero--wrap img.banner_decor {
+  position: absolute;
+  pointer-events: none;
+  top: -30px;
+  left: 70px;
+  z-index: 1;
+  /* left: 50%; */
+  /* transform: translate(-50%, -10%); */
+}
+
+/* style bubbles */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bubble.b_one,
+.bubble.b_four {
+  width: 10px;
+  height: 10px;
+}
+
+.bubble.b_two,
+.bubble.b_five {
+  width: 30px;
+  height: 30px;
+}
+
+.bubble.b_three,
+.bubble.b_six {
+  width: 15px;
+  height: 15px;
+}
+
+.bubble.b_one {
+  top: 20%;
+  left: 85px;
+  transform: translateY(-50%);
+  background: rgb(0, 201, 156);
+  animation: 2s ease 0s infinite alternate none running spin2;
+}
+
+.bubble.b_two {
+  top: 40%;
+  left: 155px;
+  transform: translateY(-50%);
+  background: rgb(252, 162, 73);
+  animation: 2s ease 0s infinite alternate none running spin1;
+}
+
+.bubble.b_three {
+  top: 65%;
+  left: 255px;
+  background: rgb(125, 149, 250);
+  animation: 1s ease 0s infinite alternate none running spin1;
+}
+
+.bubble.b_four {
+  top: 20%;
+  right: 85px;
+  transform: translateY(-50%);
+  background: rgb(210, 125, 250);
+  animation: 2s ease 0s infinite alternate none running spin1;
+}
+
+.bubble.b_five {
+  top: 40%;
+  right: 155px;
+  transform: translateY(-50%);
+  background: rgb(255, 147, 152);
+  animation: 3s ease 0s infinite alternate none running spin1;
+}
+
+.bubble.b_six {
+  top: 65%;
+  right: 55px;
+  background: rgb(241, 213, 59);
+  animation: 2s ease 0s infinite alternate none running spin2;
+}
+
+/* style triangles */
+.triangle {
+  position: absolute;
+}
+
+.triangle.t_one {
+  left: 25%;
+  top: 400px;
+  animation: 3s ease 0s infinite alternate none running rotating;
+}
+
+.triangle.t_two {
+  right: 28%;
+  bottom: 250px;
+  animation: 3s ease 0s infinite alternate none running rotating;
+}

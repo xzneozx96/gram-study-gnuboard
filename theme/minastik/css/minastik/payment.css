@@ -1,0 +1,219 @@
+.payment--title {
+  margin-bottom: 5rem;
+}
+
+.payment--steps {
+  position: relative;
+  overflow: hidden;
+}
+
+.payment--steps::before {
+  right: 70%;
+  border-width: 9px;
+  border-style: solid;
+  border-color: rgb(227, 235, 252);
+  border-image: initial;
+}
+
+.payment--steps::after,
+.payment--steps::before {
+  width: 600px;
+  height: 600px;
+  top: -37px;
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+}
+
+.payment--steps::after {
+  right: calc(70% + 4px);
+  border-width: 2px;
+  border-style: dashed;
+  border-color: rgb(50, 79, 176);
+  border-image: initial;
+  animation: 2s linear 0s infinite normal none running rotate;
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}
+
+.payment--steps ul.step--wrap li {
+  align-items: center;
+  margin-bottom: 126px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment--steps ul.step--wrap li:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.payment--steps ul.step--wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.payment--steps ul.step--wrap li:nth-child(1) .step--thumb {
+  position: relative;
+}
+
+.payment--steps ul.step--wrap li .step--thumb {
+  width: 65px;
+  height: 65px;
+  padding: 5px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(186, 208, 251);
+  border-image: initial;
+}
+
+/* .payment--steps ul.step--wrap li .step--thumb::after {
+  position: absolute;
+  content: "";
+  bottom: 75%;
+  right: 75%;
+  width: 50px;
+  height: 50px;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+} */
+
+.payment--steps ul.step--wrap li .step--thumb span {
+  line-height: 53px;
+  text-align: center;
+  font-size: 36px;
+  background-color: rgb(227, 236, 253);
+  width: 53px;
+  display: inline-block;
+  color: rgb(51, 64, 106);
+  border-radius: 50%;
+}
+
+.payment--steps ul.step--wrap li .step--content {
+  width: calc(100% - 65px);
+  padding-left: 30px;
+}
+
+.payment--steps ul.step--wrap li .step--content h5 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #3b368c;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.payment--steps ul.step--wrap li .step--content p {
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.payment--steps ul.step--wrap li:nth-child(2) {
+  transform: translateX(90px);
+}
+
+.payment--content > .rtl > img {
+  width: 450px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .payment--steps::before {
+    right: 65%;
+  }
+
+  .payment--steps::after {
+    right: calc(65% + 4px);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .payment--steps::before {
+    right: 68%;
+  }
+
+  .payment--steps::after {
+    right: calc(68% + 4px);
+  }
+
+  .payment--content > .rtl > img {
+    width: 400px;
+  }
+
+  .payment--steps::after,
+  .payment--steps::before {
+    width: 500px;
+    height: 500px;
+  }
+
+  .payment--steps ul.step--wrap li {
+    margin-bottom: 60px;
+  }
+
+  .payment--steps ul.step--wrap li:nth-child(2) {
+    transform: translateX(50px);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .payment--steps::after,
+  .payment--steps::before {
+    display: none;
+  }
+
+  .payment--steps ul.step--wrap li:nth-child(2) {
+    transform: translateX(0);
+  }
+
+  .step--content.step--2 br {
+    display: none;
+  }
+
+  ul.step--wrap {
+    padding-left: 0;
+  }
+
+  .payment--title {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .payment--steps ul.step--wrap li .step--thumb {
+    width: 50px;
+    height: 50px;
+  }
+
+  .payment--steps ul.step--wrap li .step--thumb span {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 20px;
+  }
+
+  .payment--steps ul.step--wrap li .step--content {
+    padding-left: 20px;
+  }
+
+  .payment--steps ul.step--wrap li .step--content h5 {
+    font-size: 18px;
+  }
+
+  .payment--steps ul.step--wrap li .step--content p {
+    font-size: 16px;
+  }
+}
