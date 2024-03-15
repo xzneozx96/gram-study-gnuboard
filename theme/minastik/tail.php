@@ -30,10 +30,10 @@ if(G5_COMMUNITY_USE === false) {
                     <img src="<?=G5_THEME_URL?>/img/minastik/minastik-full-ver.png" width="150px" alt="logo">
 
                     <ul class="short_links">
-                        <li><a href="https://minastik.com/#about">Giới thiệu</a></li>
-                        <li><a href="https://minastik.com/#services">Dịch vụ</a></li>
-                        <li><a href="https://minastik.com/#process">Quy trình</a></li>
-                        <li><a href="#portfolio">Dự án</a></li>
+                        <li><a href="/#about">Giới thiệu</a></li>
+                        <li><a href="/#services">Dịch vụ</a></li>
+                        <li><a href="/#process">Quy trình</a></li>
+                        <li><a href="/#portfolio">Dự án</a></li>
                     </ul>
                 </div>
             </div>
