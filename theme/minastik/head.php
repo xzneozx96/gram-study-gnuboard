@@ -109,8 +109,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                 $menu_submenus = sql_query($sql2);
                         ?>
                         
-                        <li class="nav-item dropdown submenu mega_menu">
-                            <a class="custom-nav-link" href="<?= $field['me_link']; ?>" target="<?= $field['me_target']; ?>">
+                        <li class="nav-item dropdown submenu mega_menu" onclick="hideMobileMenu()">
+                            <a class="custom-nav-link" href="<?= $field['me_link']; ?>" target="_self">
                                     <?= $field['me_name'] ?>
                             </a>
 
@@ -137,16 +137,16 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
                     <div class="side_menu_cta">
                         <span>Bạn có ý tưởng ?</span>
-                        <button class="btn mobile_cta_btn">
-                            <span>Liên hệ ngay</span>
+                        <button class="btn mobile_cta_btn" onclick="hideMobileMenu()">
+                            <span><a target="_self" href="/#contact">Liên hệ ngay</a></span>
                             <i class='bx bx-right-arrow-alt'></i>
                         </button>
                     </div>
 
                     <ul class="side_menu_social_links">
-                        <li><a href=""><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href=""><i class='bx bxl-whatsapp'></i></a></li>
-                        <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+                        <li><a rel="noreferrer" target="_blank" href="https://www.facebook.com/minastikVN"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a rel="noreferrer" target="_blank" href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a rel="noreferrer" target="_blank" href="https://www.tiktok.com/@life_at_minastik"><i class='bx bxl-tiktok'></i></a></li>
                     </ul>
                     <span>© 2021 Minastik. All Rights Reserved.</span>
                 </div>
