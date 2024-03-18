@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*웹폰트 추가*/
+@import url("/css/fonts/fonts.css");
+
+/*스타일 추가*/
+@import url("style.css");
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+﻿@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);﻿
+
+.kopubbatang{
+ font-family: 'KoPub Batang', serif !important;
+}
+﻿.nanumsquare {
+font-family: 'NanumSquare', sans-serif !important;
+}
+
+/*보드 스타일 초기화*/
+*:focus {outline:none;}
+html{margin: 0 auto;max-width: 1920px;}
+body{max-width: 1920px;min-width: 320px;width: 100%;background-color: #ffffff;font-family:'Noto Sans KR', dotum, sans-serif;line-height: 1.6;letter-spacing: -0.5px; font-size:16px; word-break:keep-all}
+a{color: #707070;}
+h1, h2, h3, h4, h5, h6{font-family:'Noto Sans KR', dotum, sans-serif;}
+hr{display: block;border: 0;margin: 0;}
+input[type=text], input[type=password], textarea{
+    -webkit-transition: all 0.0s ease-in-out;
+    -moz-transition: all 0.0s ease-in-out;
+    -ms-transition: all 0.0s ease-in-out;
+    -o-transition: all 0.0s ease-in-out;
+}
+/*인풋박스 스타일 수정*/
+.required, textarea.required{background-image: none !important;}
+.wr_content textarea, .tbl_frm01 textarea, .form_01 textarea, .frm_input{border-radius: 0;}
+
+
+#hd {border-top:0;}
+#hd, #wrapper, #ft{width: 100%;min-width: auto;}
+#hd_pop, #hd_wrapper, #tnb ul, #gnb .gnb_wrap, #container_wr, #ft_wr{width: 100%;}
+#container{width: 100%;margin: 0;}
+
+/*로그인*/
+#login_fs{margin-bottom: 60px;}
+#mb_login #login_info{margin: 0;}
+.mbskin{max-width: 400px;width: 100%;}
+
+
+/*---------------------------------------------------------------------------*/
+
+.container{max-width: 1200px;width: 100%;margin: 0 auto;padding:0; position:relative;}
+.container.long{max-width: 1640px;padding: 0;}
+.img-fluid{ max-width:100%; height:auto}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+    .container{padding: 0 20px;}
+}
+
+.ul_hz{overflow: hidden;}
+.ul_hz li{float: left;}
+
+.ul_blet li{position: relative;}
+.ul_blet li:after{content: "";position: absolute;left: 0;top: 0;width: 1px;height: 100%;background-color: #c2c2c2;}
+.ul_blet li:first-child:after{display: none;}
+
+.btn_ts{transition: all .25s;}
+
+/*---------------------------------------------------------------------------*/
+.br_l{display: block;}
+.br_lm{display: block;}
+.br_m{display: inline;}
+.br_ms{display: inline;;}
+.br_s{display: inline;;}
+.br_ss{display: inline;}
+
+.show_l{display: block !important;}
+.show_lm{display: inline-block !important;}
+.show_m{display: none !important;}
+.show_s{display: none !important;}
+.show_ss{display: none !important;}
+
+.show_inline_l{display: inline-block !important;}
+.show_inline_lm{display: inline-block !important;}
+.show_inline_m{display: none !important;}
+.show_inline_ms{display: none !important;}
+.show_inline_s{display: none !important;}
+
+@media (max-width: 1200px) {
+    .br_l{display: inline; !important;}
+    .br_lm{display: block !important;}
+    .br_m{display: block !important;}
+    .br_ms{display: block !important;}
+    .br_s{display: inline !important;}
+	.br_ss{display: inline;}
+	
+	.show_lm{display: block !important;}
+    .show_l{display: none !important;}
+    .show_m{display: block !important;}
+    .show_s{display: none !important;}
+	.show_ss{display: none !important;}
+
+    .show_inline_l{display: none !important;}
+    .show_inline_lm{display: inline-block !important;}
+    .show_inline_m{display: inline-block !important;}
+    .show_inline_ms{display: inline-block !important;}
+    .show_inline_s{display: none !important;}
+}
+
+@media (max-width: 768px) {
+    .br_l{display: inline !important;}
+    .br_lm{display: inline !important;}
+    .br_m{display: inline !important;}
+    .br_ms{display: block !important;}
+    .br_s{display: block !important;}
+	.br_ss{display: inline !important;}
+
+    .show_lm{display:none !important;}
+	.show_l{display: none !important;}
+    .show_m{display: none !important;}
+    .show_s{display: block !important;}
+	.show_ss{display: inline-block !important;}
+
+    .show_inline_l{display: none !important;}
+    .show_inline_lm{display: none !important;}
+    .show_inline_m{display: none !important;}
+    .show_inline_ms{display: inline-block !important;}
+    .show_inline_s{display: inline-block !important;}
+}
+@media (max-width: 768px) {
+	.br_ss{display: block !important;}
+}
+/*---------------------------------------------------------------------------*/

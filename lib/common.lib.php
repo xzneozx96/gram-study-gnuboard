@@ -655,7 +655,7 @@ function html_purifier($html)
     if ((function_exists('check_html_link_nofollow') && check_html_link_nofollow('html_purifier'))) {
         $config->set('HTML.Nofollow', true); // rel=nofollow 으로 스팸유입을 줄임
     }
-    $config->set('URI.SafeIframeRegexp', '%^(https?:)?//(' . preg_replace('/\\\?\./', '\.', $safeiframe) . ')%');
+    $config->set('URI.SafeIframeRegexp', '%^(https?:)?//(' . $safeiframe . ')%');
     $config->set('Attr.AllowedFrameTargets', array('_blank'));
     //유튜브, 비메오 전체화면 가능하게 하기
     $config->set('Filter.Custom', array(new HTMLPurifier_Filter_Iframevideo()));
@@ -3612,8 +3612,7 @@ function check_url_host($url, $msg='', $return_url=G5_URL, $is_redirect=false)
     while ( ( $replace_url = preg_replace(array('/\/{2,}/', '/\\@/'), array('//', ''), urldecode($url)) ) != $url ) {
         $url = $replace_url;
     }
-
-    $p = @parse_url(trim(str_replace('\\', '', $url)));
+    $p = @parse_url(trim($url));
     $host = preg_replace('/:[0-9]+$/', '', $_SERVER['HTTP_HOST']);
     $is_host_check = false;
     

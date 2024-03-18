@@ -110,7 +110,7 @@ include_once(G5_MSHOP_PATH.'/_head.php');
 
     <?php include_once(G5_MSHOP_SKIN_PATH.'/main.event.skin.php'); // 이벤트 ?>
 
-    <!-- Xin chào 최신글 시작 { -->
+    <!-- 커뮤니티 최신글 시작 { -->
     <section id="sidx_lat">
         <?php echo latest('shop_basic', 'notice', 3, 30); ?>
     </section>

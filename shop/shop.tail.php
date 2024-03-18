@@ -41,11 +41,11 @@ $admin = get_admin("super");
 			</p>
 	    </div>
 
-	    <!-- Xin chào 최신글 시작 { -->
+	    <!-- 커뮤니티 최신글 시작 { -->
         <section id="sidx_lat">
             <?php echo latest('notice', 'notice', 5, 30); ?>
         </section>
-        <!-- } Xin chào 최신글 끝 -->
+        <!-- } 커뮤니티 최신글 끝 -->
 
 		<?php echo visit('shop_basic'); // 접속자 ?>
     </div>

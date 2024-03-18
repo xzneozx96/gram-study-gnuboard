@@ -1,0 +1,59 @@
+/* map */
+#canvas {float:left; position:relative; width: 360px; height:500px; margin: 0}
+#south {width: 360px; height:500px; position: absolute; top: 0px; left: 20px;}
+
+div.loc_div{ display: none; position: absolute; height:16px; background-color:#000; color:#fff; padding:2px 5px; text-align:center;}
+
+/* loc_01~17 서울1, 부산2, 대구3, 인천4, 광주5, 대전6, 울산7, 세종8, 경기9, 강원10, 충북11, 충남12, 전북13, 전남14, 경북15, 경남16, 제주17 */
+/* 시도명 나오는 부분 위치 조절 */
+#loc_01{ left:80px; top:75px; }
+#loc_02{ left:255px; top:345px; }
+#loc_03{ left:170px; top:270px; }
+#loc_04{ left:60px; top:75px; }
+#loc_05{ left:	60px; top:260px; }
+#loc_06{ left:80px; top:165px; }
+#loc_07{ left:265px; top:330px; }
+#loc_08{ left:70px; top:165px; }
+#loc_09{ left:80px; top:45px; }
+#loc_10{ left:150px; top:45px; }
+#loc_11{ left:120px; top:145px; }
+#loc_12{ left:60px; top:165px; }
+#loc_13{ left:60px; top:285px; }
+#loc_14{ left:60px; top:340px; }
+#loc_15{ left:170px; top:250px; }
+#loc_16{ left:130px; top:340px; }
+#loc_17{ left:80px; top:440px; }
+
+#map_right_wrapper{float:left; margin-left:10px; width:380px;}
+.map_right_title1 {margin:20px 0 7px 0;}
+.map_right_title2 {margin:30px 0 7px 0;}
+
+#bo_sch {margin-left:95px; margin-bottom:10px;padding-top:5px;text-align:left;}
+#bo_sch legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+
+#bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#bo_cate ul {margin-bottom:10px;padding-left:1px;width:100%;zoom:1}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_cate li {float:left; margin:3px 3px 3px 0}
+#bo_cate a {display:block;position:relative;margin-left:-1px;padding:6px 0 5px;width:90px;border:1px solid #ddd;background:#f7f7f7;color:#888;text-align:center;letter-spacing:-0.1em;line-height:1.2em;cursor:pointer}
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active {text-decoration:none}
+#bo_cate #bo_cate_on {z-index:2;border:1px solid #565e60;background:#333;color:#fff;font-weight:bold}
+
+.td_branch_img {} 
+.td_subject { width:120px; }
+.td_branch_name {width:100px; text-align:center;}
+.td_branch_addr{width:260px;}
+
+/* 게시글 보기 */
+#bo_v_info{margin-bottom:10px;}
+
+#bo_v_img_branch {float:left; margin:0 10px 10px 0;overflow:hidden;zoom:1}
+#bo_v_img_branch:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_v_img_branch img {margin-bottom:20px;max-width:100%;height:auto}
+
+#bo_v_con_branch {float:left; margin:0; padding:0; list-style:none; width:70%;line-height:1.7em;word-break:break-all;overflow:hidden}
+#bo_v_con_branch li span.con_branch_title{display:inline-block; width:60px;}
+#bo_v_con_branch a {color:#000;text-decoration:underline}
+#bo_v_con_branch img {max-width:100%;height:auto}
+
+

@@ -1,11 +1,5 @@
 function kakaolink_send(text, url, image)
 {
-    if (window.Kakao && (kakao_javascript_apikey !== undefined)) {
-        if (! Kakao.isInitialized()) {
-            Kakao.init(kakao_javascript_apikey);
-        }
-    }
-
     if( image === undefined ){
         image = '';
     }

@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*main*/
+.tablet_block{ display:block;}
+.lyr_03{ height:100%;}
+.lyr_03 .half_box{ float:none; width:100%; padding-bottom:50px; background:#eff0f7;}
+.lyr_03 .box1{ background:linear-gradient(180deg, #1c2240 80%, #eff0f7 25%)}
+.lyr3_left_letter2{ bottom:170px; color:#fff;}
+.lyr3_wrap { overflow:auto;}
+.lyr3_left_slide{ position:relative; margin:0 auto; top:auto; left:auto; padding-top:100px;}
+.lyr3_left_letter1{ top:85px;}
+.lyr_03 .box2 .box_inner:after{ content:""; display:block; clear:both;}
+.lyr_03 .lyr3_title{ float:left; width:50%; padding:50px 20px 0 20px; font-size:40px;}
+.lyr3_right_slide{float:left; width:50%; overflow:hidden; padding-top:50px;}
+.lyr3_right_slide .swiper-container{ padding-left:30px;}
+
+.lyr_04{ height:100%;}
+.lyr_04 .half_box{ float:none; width:100%;}
+.lyr4_wrap{overflow:auto;}
+.lyr_04 .box2{ background:linear-gradient(180deg, #f8ca4d 80%, #fff 25%)}
+.lyr4_right_slide { position:relative; margin:0 auto; top:auto; left:auto; padding-top:100px; padding-left:200px; width:100%;}
+.lyr_04 .box1 .box_inner{ padding-left:0; overflow:hidden; margin-left:0; padding-bottom:100px;}
+.lyr_04 .box1{ background:#fff;}
+.lyr_04 .box1 .box_inner:after{ content:""; display:block; clear:both;}
+.lyr_04 .lyr4_title{ padding:50px 0 0 20px; float:left; width:50%; font-size:40px;}
+.lyr4_left_slide{ float:left; width:50%; padding-top:50px;}
+.lyr_04 .lyr4_title .sl_link{ margin-top:10px;}
+.lyr4_wrap .box_inner .swiper-container{ width:100%; padding:0 30px 0 0;}
+
+.m_gr_04 > div{ width:100%;}
+.m_gr_board .board-cts{ float:none; width:100%; margin-bottom:50px;}
+
+.m_gr_board{ padding-bottom:40px;}
+.msg_wrap .msg_container{ padding:0 60px;}
+
+
+.footer_logo{ display:none;}
+.footer_info{ width:100%;}
+
+
+/*그램소개*/
+.ingre_box .ingre_box_title strong{ display:block;}
+.ingre .left_side{ width:50%; padding-right:20px;}
+.ingre .left_side img{ max-width:100%;}
+.ingre .right_side{ width:50%;padding-left:20px;}
+.ingre .right_side img{ max-width:100%;}
+.ingre_head{ padding-bottom:60px; margin-bottom:0}
+.ceo_msg{ padding:100px 30px;}
+.msg_wrap .msg_container .msg_l_cts{ float:none; width:100%;}
+.msg_wrap .msg_container .msg_r_cts{ float:none; width:100%;}
+.msg_wrap .msg_container .msg_l_cts > h2{ padding-bottom:50px;}
+.loc_wrap > div{ float:none; width:100%; height:435px;}
+.loc_wrap{ max-height:100%;}
+.loc_wrap .loc_l .info{ width:100%; float:left; padding-left:30px; padding:80px 30px;}
+
+
+/*공간소개*/
+.space_tlt > dt{ width:120px;}
+.space_tlt > dd{ width:calc(100% - 150px); padding-left:0; padding-left:30px;}
+
+
+/*가맹문의*/
+.franchise_top > div.text > h1{ font-size:45px;}
+.franchise_sec2{ background-size:100% auto; }
+.franchise_sec2 .sec_tlt{ padding-left:30px;}
+.franchise_sec2 .side_layer{ width:calc(100% - 30px)}
+.franchise_sec2 .side_layer .clip_wrap .layer3{ padding:70px 30px;}
+.franchise_sec4 ul.step li{ width:20%;}
+.franchise_sec4 ul.step li.arrow{ width:6.66%}
+.franchise_sec4 ul.step li.arrow.tablet{ display:none}
+.franchise_sec4 ul.step li.arrow.pc{ display:block}
+
+.formWrap > form > dl.formCon input[type=text], input[type=number], input[type=email], select{ width:50%;}
+.formWrap > form > dl.formCon input[type=text].email, input[type=number].email, input[type=email].email, select.email{ width:30%;}
+
+.formWrap{ padding:40px 30px;}

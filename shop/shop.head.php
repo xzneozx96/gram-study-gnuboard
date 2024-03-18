@@ -33,7 +33,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
     	<div class="inner">
             <?php if(defined('G5_COMMUNITY_USE') == false || G5_COMMUNITY_USE) { ?>
     		<ul id="hd_define">
-    			<li><a href="<?php echo G5_URL ?>/">Xin chào</a></li>
+    			<li><a href="<?php echo G5_URL ?>/">커뮤니티</a></li>
     			<li class="active"><a href="<?php echo G5_SHOP_URL ?>/">쇼핑몰</a></li>
     		</ul>
             <?php } ?>
@@ -126,7 +126,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
 		            <li><a href="<?php echo G5_SHOP_URL ?>/itemqalist.php">상품문의</a></li>
 		            <li><a href="<?php echo G5_SHOP_URL; ?>/couponzone.php">쿠폰존</a></li>
 		        </ul>
-	        	<?php // include_once(G5_SHOP_SKIN_PATH.'/boxcommunity.skin.php'); // Xin chào ?>
+	        	<?php // include_once(G5_SHOP_SKIN_PATH.'/boxcommunity.skin.php'); // 커뮤니티 ?>
 	    		<button type="button" class="con_close"><i class="fa fa-times-circle" aria-hidden="true"></i><span class="sound_only">나의정보 닫기</span></button>
 	    	</div>
 	    </div>

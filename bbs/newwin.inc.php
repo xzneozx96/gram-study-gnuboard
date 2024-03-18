@@ -39,3 +39,21 @@ for ($i=0; $nw=sql_fetch_array($result); $i++)
 if ($i == 0) echo '<span class="sound_only">팝업레이어 알림이 없습니다.</span>';
 ?>
 </div>
+
+<script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+    $("#hd").css("z-index", 1000);
+});
+</script>
+<!-- } 팝업레이어 끝 -->

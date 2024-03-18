@@ -325,8 +325,8 @@ function thumbnail($filename, $source_path, $target_path, $thumb_width, $thumb_h
             }
         }
     } else if ($file_ext === 'png') {
-        // $src = @imagecreatefrompng($source_file);
-        // @imagealphablending($src, true);
+        $src = @imagecreatefrompng($source_file);
+        @imagealphablending($src, true);
     } else if ($file_ext === 'webp') {
         $src = @imagecreatefromwebp($source_file);
         @imagealphablending($src, true);

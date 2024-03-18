@@ -1,0 +1,33 @@
+.sub_bottom{position:relative;height:580px;background-color:#f6f5ef}
+.sub_bottom_12{background-color:#fff}
+.sub_bottom_title{padding:220px 0 40px}
+.sub_bottom .cmn_link1{display:block;margin:0 auto}
+
+.sub_visual{position:relative;width:100%;height:410px;background:no-repeat center;background-size:cover;z-index:10}
+.sub_visual .sub_title{padding-top:242px;text-align:center}
+
+.lnb_wrap{position:relative;display:block;margin-bottom:116px;z-index:11}
+.lnb_wrap li{margin-right:78px;box-sizing:border-box}
+.lnb_wrap li:last-child{margin-right:0}
+.lnb_wrap a{font-family:'NotoSansKR-Regular';font-size:22px;line-height:123%;letter-spacing:-0.025em;color:#8a8986}
+.lnb_wrap li .line{display:none;margin:0 auto;margin-top:10px;width:100%;height:2px;background-color:#ffcf31}
+.lnb_wrap li.on a{color:#000}
+.lnb_wrap li:hover a{color:#000}
+.lnb_wrap li:hover .line{display:block}
+.lnb_wrap li.on .line{display:block}
+
+.sub_nav{visibility:hidden;position:absolute;left:174px;top:0;min-width:192px;height:100%}
+.sub_nav_view{display:block;position:relative;height:100%;background:url('../img/sub/sub_nav_arrow_down.png') no-repeat right 20px top 37px}
+.sub_nav_view::before{content:'';position:absolute;left:0;top:31px;width:2px;height:18px;background-color:#ccc}
+.sub_nav.is_spread{background-image:url('../img/sub/sub_nav_arrow_up.png')}
+.sub_nav_view .swiper-container{height:80px}
+.sub_nav_view li{padding-left:22px;padding-right:90px;line-height:80px;font-size:18px;color:#141310;letter-spacing:-0.025em;white-space:nowrap}
+.sub_nav_list{display:none;position:absolute;left:0;top:80px;width:100%;padding:32px 0;background-color:rgba(255,255,255,0.95)}
+.sub_nav_list li{margin-bottom:21px}
+.sub_nav_list li a{display:block;padding-left:22px;font-size:18px;line-height:23px;color:#6c6460;letter-spacing:-0.025em}
+.sub_nav_list li.on a, .sub_nav_list a:hover{font-family:'NotoSansKR-Bold';color:#dfad05}
+.progress_line{display:none;opacity:0;position:absolute;left:0;top:100%;width:100%;height:2px;background-color:rgba(0,0,0,0.2);transition:opacity 0.3s}
+.progress_fill{width:0;height:100%;background-color:#f3c52f}
+
+.header_wrap.is_fixed .sub_nav{visibility:visible}
+.header_wrap.is_fixed .progress_line{display:block;opacity:1}

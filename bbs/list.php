@@ -69,10 +69,8 @@ if(G5_IS_MOBILE) {
     $page_rows = $board['bo_mobile_page_rows'];
     $list_page_rows = $board['bo_mobile_page_rows'];
 } else {
-    // $page_rows = $board['bo_page_rows'];
-    // $list_page_rows = $board['bo_page_rows'];
-    $page_rows = 9;
-    $list_page_rows = 9;
+    $page_rows = $board['bo_page_rows'];
+    $list_page_rows = $board['bo_page_rows'];
 }
 
 if ($page < 1) { $page = 1; } // 페이지가 없으면 첫 페이지 (1 페이지)

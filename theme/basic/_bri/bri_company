@@ -1,0 +1,87 @@
+{
+  "menu": [
+    {
+      "name" : "병원소개",
+      "link" : "/bri/sub.php?sub=sub_10&menu=10",
+      "sub" : [
+        {"name" : "병원장 인사말", "link" : "/bri/sub.php?sub=sub_10&menu=10", "menu" : "10"},
+        {"name" : "첨단장비 소개", "link" : "/bri/sub.php?sub=sub_10&menu=20", "menu" : "20"},
+        {"name" : "오시는길", "link" : "/bri/sub.php?sub=sub_10&menu=30", "menu" : "30"},
+        {"name" : "채용공고", "link" : "/bri/board.php?bo_table=careers", "bo_table" : "careers"},
+        {"name" : "병원갤러리", "link" : "/bri/board.php?bo_table=gallery", "bo_table" : "gallery"}
+      ],
+      "hd": 1,
+      "ft": 1
+    },
+    {
+      "name" : "진료과목",
+      "link" : "/bri/sub.php?sub=sub_20&menu=10",
+      "sub" : [
+        {"name" : "정형외과", "link" : "/bri/sub.php?sub=sub_20&menu=10", "menu" : "10"},
+        {"name" : "신경외과", "link" : "/bri/sub.php?sub=sub_20&menu=20", "menu" : "20"},
+        {"name" : "내과", "link" : "/bri/sub.php?sub=sub_20&menu=30", "menu" : "30"},
+        {"name" : "영상의학과", "link" : "/bri/sub.php?sub=sub_20&menu=40", "menu" : "40"},
+        {"name" : "마취통증의학과", "link" : "/bri/sub.php?sub=sub_20&menu=50", "menu" : "50"}
+      ],
+      "hd": 1,
+      "ft": 1
+    },
+    {
+      "name" : "의료진",
+      "link" : "/bri/sub.php?sub=sub_30&menu=10",
+      "sub" : [
+        {"name" : "정형외과1", "link" : "/bri/sub.php?sub=sub_30&menu=10", "menu" : "10"},
+        {"name" : "정형외과3", "link" : "/bri/sub.php?sub=sub_30&menu=15", "menu" : "15"},
+        {"name" : "정형외과5", "link" : "/bri/sub.php?sub=sub_30&menu=20", "menu" : "20"},
+        {"name" : "정형외과7", "link" : "/bri/sub.php?sub=sub_30&menu=25", "menu" : "25"},
+        {"name" : "신경외과1", "link" : "/bri/sub.php?sub=sub_30&menu=30", "menu" : "30"},
+        {"name" : "신경외과2", "link" : "/bri/sub.php?sub=sub_30&menu=35", "menu" : "35"},
+        {"name" : "내과", "link" : "/bri/sub.php?sub=sub_30&menu=40", "menu" : "40"},
+        {"name" : "마취통증의학과", "link" : "/bri/sub.php?sub=sub_30&menu=45", "menu" : "45"},
+        {"name" : "영상의학과", "link" : "/bri/sub.php?sub=sub_30&menu=50", "menu" : "50"},
+        {"name" : "응급진료실", "link" : "/bri/sub.php?sub=sub_30&menu=55", "menu" : "55"}
+      ],
+      "hd": 1,
+      "ft": 1
+    },
+    {
+      "name" : "로봇인공관절수술센터",
+      "link" : "/bri/sub.php?sub=sub_40&menu=10",
+      "sub" : [
+        {"name" : "로보닥", "link" : "/bri/sub.php?sub=sub_40&menu=10", "menu" : "10"},
+        {"name" : "가가호호방문", "link" : "/bri/board.php?bo_table=announce", "bo_table" : "20"}
+      ],
+      "subOn": 1
+    },
+    {
+      "name" : "전문클리닉",
+      "link" : "/bri/sub.php?sub=sub_50&menu=10",
+      "sub" : [
+        {"name" : "어깨클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=10", "menu" : "10"},
+        {"name" : "수부클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=15", "menu" : "15"},
+        {"name" : "척추클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=20", "menu" : "20"},
+        {"name" : "무릎클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=25", "menu" : "25"},
+        {"name" : "족부클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=30", "menu" : "30"},
+        {"name" : "통증클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=35", "menu" : "35"},
+        {"name" : "인공관절클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=40", "menu" : "40"},
+        {"name" : "통증클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=45", "menu" : "45"},
+        {"name" : "스포츠손상클리닉", "link" : "/bri/sub.php?sub=sub_50&menu=50", "menu" : "50"},
+        {"name" : "소화기,내시경센터", "link" : "/bri/sub.php?sub=sub_50&menu=55", "menu" : "55"}
+      ],
+      "subOn": 1
+    },
+    {
+      "name" : "서식자료실 / 기타",
+      "link" : "/",
+      "sub" : [
+        {"name" : "SCM", "link" : "http://scm.krmotors.com", "menu" : "10", "target" : "_blank"},
+        {"name" : "PRM", "link" : "http://prm.kr-global.co.kr/GPRM_Web", "menu" : "10", "target" : "_blank"},
+        {"name" : "인트라넷", "link" : "/bri/board.php?bo_table=qna_cp", "bo_table" : "qna_cp"},
+        {"name" : "그룹웨어", "link" : "https://email.krmotors.com/", "menu" : "10", "target" : "_blank"}
+      ],
+      "subOut": 1
+    }
+  ],
+  "register" : 0,
+  "search" : 0
+}
